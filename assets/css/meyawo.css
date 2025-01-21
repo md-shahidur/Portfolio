@@ -11118,9 +11118,12 @@ p {
   border-radius: 100px;
 }
 
+
+/* Service Section */
+
 .service-card {
   position: relative;
-  min-height: 230px;
+  min-height: 250px;
   border: 1px solid #dee2e6;
   overflow: hidden;
   border-radius: 3px;
@@ -11147,7 +11150,7 @@ p {
 
 .service-card .body .subtitle {
   position: absolute;
-  bottom: -100%;
+  /* bottom: -100%; */
   opacity: 0;
   visibility: hidden;
   -webkit-transition: all, 0.3s;
@@ -11172,6 +11175,67 @@ p {
   opacity: 1;
   visibility: visible;
 }
+
+/* End of Service Section */
+
+/* Skill Section */
+
+.skill-card {
+  position: relative;
+  /* min-height: 200px; */
+  border: 1px solid #dee2e6;
+  /* overflow: hidden; */
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.skill-card .body {
+  padding: 10px;
+}
+
+.skill-card .body img.icon {
+  margin-top: 40px;
+  width: 55px;
+  margin-bottom: 25px;
+  -webkit-transition: all, 0.3s;
+  transition: all, 0.3s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skill-card .body img.icon {
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+
+/* .skill-card .body .subtitle {
+  position: absolute;
+  bottom: -100%;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all, 0.3s;
+  transition: all, 0.3s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skill-card .body .subtitle {
+    -webkit-transition: none;
+    transition: none;
+  }
+} */
+
+/* .skill-card:hover .body img.icon {
+  margin-top: 5px;
+  width: 45px;
+  margin-bottom: 15px;
+}
+
+.skill-card:hover .body .subtitle {
+  bottom: 7px;
+  opacity: 1;
+  visibility: visible;
+} */
+
 
 /*/ portfolio wrapper */
 .portfolio-card {
