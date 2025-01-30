@@ -22,3 +22,10 @@ $('#nav-toggle').click(function(){
     $(this).toggleClass('is-active')
     $('ul.nav').toggleClass('show');
 });
+
+// Visit my works
+
+$('#visitmywork').click(function(){
+    // window.location.href='https://github.com/rajib1121';
+    window.open('https://github.com/md-shahidur')
+})
